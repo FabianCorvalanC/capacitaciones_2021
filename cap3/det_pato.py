@@ -60,8 +60,8 @@ if __name__ == '__main__':
 
     # Parametros para el detector de patos
     # Se debe encontrar el rango apropiado
-    lower_yellow = np.array([22,60,200])
-    upper_yellow = np.array([60,255,255])
+    lower_yellow = np.array([22,60,170])
+    upper_yellow = np.array([55,255,255])
     min_area = 2500
 
     while True:
